@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
+  <title>Introduction to Differential Equaitons</title>
 
-  <p> Text of section. </p>
+  <p><em>Differential Equations</em> describe motion of planets, population dynamics, fluid flow, 
+     and much more in the phyiscal world. Since modelling the aforementioned is important for scientists, it would suffice
+     to say that differential equations will appear often throughout your study of Physics, Engineering, and Mathematics.</p>
 
+  <p>Differential Equations are equations that contain a function <m>y</m>, its independent variables, and its derivatives.
+     The study of differential equations is concerned with the problem of determining a realtionship among the variables from the
+     information given to us about themselves and their derivatives. For example, the equation
+     <m> \frac{d^2y}{dx^2} + 3\frac{dy}{dx} + 2y = 0 </m>
+      is a differential equation. The function <m>y(x)</m> is the unknown function that we are trying to solve for.</p>
 </section>

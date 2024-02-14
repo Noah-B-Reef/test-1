@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="one-two-ODE" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Ordinary Differential Equations</title>
+
+  <p>
+    We will start this section by introducting one type of differential equation aptly called an 
+     <em>Ordinary Differential Equation</em>.
+  </p>
+
+  <definition xml:id="def-ODE">
+    <statement>
+      <p>
+        Let <m>f(x)</m> define a function of <m>x</m> on an interval <m>I: a &lt; x &lt; b </m>. 
+        By an <em>Ordinary Differential Equation</em> we mean an equation involving <m>x</m>, the function
+        <m>f(x)</m> and one or more of its derivatives.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Note that by <xref ref="def-ODE"/> when we talk about an ordinary differential equation we are talking about an equation
+    whose function that only consists of a single independent-variable, such that is derivatives are "ordinary". 
+  </p>
+
+  <example>
+    <title>Example of ODE's</title>
+    <p>
+      Here are some examples of ordinary differential equations:
+      <mdn>
+      <mrow>
+        \frac{dy}{dx} + y \amp = 0
+      </mrow>
+      <mrow>
+        \frac{d^2y}{dx^2} + 2\frac{dy}{dx} + y \amp = 0
+      </mrow>
+      <mrow>
+        \frac{d^3y}{dx^3} + 3\frac{d^2y}{dx^2} + 3\frac{dy}{dx} + y \amp= 0
+      </mrow>
+      <mrow>
+        \frac{d^2y}{dx^2} \amp = \frac{1}{1-x^2} 
+      </mrow>
+    </mdn>
+    </p>
+  </example>
+</section>
